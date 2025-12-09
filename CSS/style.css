@@ -10,7 +10,7 @@
   --border-color: #dddddd;
 
   --header-bg: #ffffff;
-  --footer-bg: #333333;
+  --footer-bg: #14161c;
   --footer-text: #ffffff;
 
   --hero-bg: #007bff;
@@ -294,4 +294,5 @@ body.dark-theme #theme-toggle {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 }
+
 

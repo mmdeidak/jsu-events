@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>نظرسنجی - دانشگاه جندی شاپور</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/forms.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="../index.html" class="logo">رویدادهای جندی شاپور</a>
+        <nav style="display: flex; align-items: center; gap: 8px">
+          <button id="theme-toggle">🌙</button>
+          <a href="../index.html" class="login-btn">صفحه اصلی</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="form-container" style="max-width: 600px">
+        <div class="form-header">
+          <h2>فرم نظرسنجی</h2>
+          <p>نظرات شما برای ما ارزشمند است.</p>
+        </div>
+
+        <form id="surveyForm">
+          <div class="form-group">
+            <label for="eventName">نام رویداد:</label>
+            <select
+              id="eventName"
+              style="
+                width: 100%;
+                padding: 0.8rem;
+                border: 1px solid var(--border-color);
+                border-radius: 5px;
+                background: var(--bg-color);
+                color: var(--text-color);
+              "
+            >
+              <option value="">انتخاب کنید...</option>
+              <option value="پایتون">دوره پایتون</option>
+              <option value="کربلا">سفر کربلا</option>
+              <option value="ماکارونی">سازه ماکارونی</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="email">ایمیل شما:</label>
+            <input type="text" id="email" placeholder="example@mail.com" />
+          </div>
+
+          <div class="form-group">
+            <label>کیفیت برگزاری:</label>
+            <div style="display: flex; gap: 15px; margin-top: 5px">
+              <label
+                ><input type="radio" name="quality" value="عالی" /> عالی</label
+              >
+              <label
+                ><input type="radio" name="quality" value="متوسط" />
+                متوسط</label
+              >
+              <label
+                ><input type="radio" name="quality" value="ضعیف" /> ضعیف</label
+              >
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="score">امتیاز (۱ تا ۱۰):</label>
+            <input type="number" id="score" min="1" max="10" />
+          </div>
+
+          <div class="form-group">
+            <label for="comment">پیشنهاد / انتقاد:</label>
+            <textarea
+              id="comment"
+              rows="4"
+              style="
+                width: 100%;
+                padding: 0.8rem;
+                border: 1px solid var(--border-color);
+                border-radius: 5px;
+                background: var(--bg-color);
+                color: var(--text-color);
+                font-family: inherit;
+              "
+            ></textarea>
+          </div>
+
+          <p
+            id="error-msg"
+            style="
+              color: #dc3545;
+              display: none;
+              font-weight: bold;
+              margin-bottom: 1rem;
+            "
+          ></p>
+          <p
+            id="success-msg"
+            style="
+              color: #28a745;
+              display: none;
+              font-weight: bold;
+              margin-bottom: 1rem;
+            "
+          >
+            نظر شما با موفقیت ثبت شد!
+          </p>
+
+          <button type="submit" class="btn-submit">ارسال نظر</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>۱۴۰۴ - دانشگاه صنعتی جندی شاپور دزفول</p>
+      </div>
+    </footer>
+
+    <script src="JS/script.js"></script>
+  </body>
+</html>

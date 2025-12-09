@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>دوره پایتون مقدماتی - دانشگاه جندی شاپور</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/details.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="../index.html" class="logo">رویدادهای جندی شاپور</a>
+        <nav style="display: flex; align-items: center; gap: 5px">
+          <button id="theme-toggle">🌙</button>
+
+          <a href="login.html" class="login-btn">ورود</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <article class="details-card">
+        <div class="details-header">
+          <h2 class="title-blue">🚀 شروع قدرتمند دنیای کدنویسی</h2>
+          <p>دوره آموزشی برنامه‌نویسی پایتون (Python) – سطح مقدماتی</p>
+        </div>
+
+        <div class="slider-container event-banner-slider">
+          <div class="mySlides fade" style="display: block">
+            <img src="../assets/images/python.jpg" alt="عکس ۱" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="../assets/images/python-2.jpg" alt="عکس ۲" />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <div
+          class="minimal-timer"
+          id="event-timer"
+          data-date="Nov 16, 2025 16:00:00"
+        >
+          <div class="timer-part">
+            <span class="count-num" id="days">00</span>
+            <small>روز</small>
+          </div>
+          <span class="colon">:</span>
+          <div class="timer-part">
+            <span class="count-num" id="hours">00</span>
+            <small>ساعت</small>
+          </div>
+          <span class="colon">:</span>
+          <div class="timer-part">
+            <span class="count-num" id="minutes">00</span>
+            <small>دقیقه</small>
+          </div>
+          <span class="colon">:</span>
+          <div class="timer-part">
+            <span class="count-num" id="seconds">00</span>
+            <small>ثانیه</small>
+          </div>
+        </div>
+
+        <p id="timer-message" style="display: none">
+          مهلت ثبت‌نام به پایان رسید!
+        </p>
+
+        <div class="info-box info-blue">
+          <p><strong>👨🏻‍🏫 مدرس:</strong> مهندس امین عنایت زارع</p>
+          <p><strong>📅 شروع دوره:</strong> ۲۵ آبان ۱۴۰۴</p>
+          <p>
+            <strong>⏰ زمان برگزاری:</strong> یکشنبه‌ها، ساعت ۱۶:۰۰ تا ۱۸:۰۰
+          </p>
+          <p><strong>📍 مکان:</strong> دانشکده کامپیوتر، کارگاه کامپیوتر</p>
+          <p><strong>💰 شهریه دوره:</strong> ۲۵۰,۰۰۰ تومان</p>
+        </div>
+
+        <h3 class="section-title">سرفصل‌های آموزشی:</h3>
+        <ul class="details-list">
+          <li>آشنایی با محیط برنامه‌نویسی و نصب پایتون</li>
+          <li>متغیرها، انواع داده‌ها و عملگرها</li>
+          <li>ساختارهای کنترلی (... ,if, else)</li>
+          <li>توابع و ماژول‌بندی کد</li>
+          <li>کار با رشته‌ها و لیست‌ها</li>
+        </ul>
+
+        <div class="info-box info-yellow">
+          <strong>💡 نکات مهم :</strong>
+          <ul style="margin-right: 1.5rem">
+            <li>همراه داشتن لپ‌تاپ شخصی الزامی نیست اما توصیه می‌شود.</li>
+            <li>
+              به تمامی شرکت‌کنندگان <strong>گواهی پایان دوره</strong> از طرف
+              انجمن علمی اعطا خواهد شد.
+            </li>
+          </ul>
+        </div>
+
+        <div class="action-area">
+          <span class="organizer-name"
+            >انجمن علمی مهندسی کامپیوتر و نقشه‌برداری</span
+          >
+          <a href="login.html" class="btn-submit action-btn">ثبت‌نام</a>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>۱۴۰۴ - دانشگاه صنعتی جندی شاپور دزفول</p>
+      </div>
+    </footer>
+    <script src="../JS/script.js"></script>
+  </body>
+</html>

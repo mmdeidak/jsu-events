@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>جزئیات سفر کربلا - دانشگاه جندی شاپور</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/details.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="../index.html" class="logo">رویدادهای جندی شاپور</a>
+        <nav style="display: flex; align-items: center; gap: 5px">
+          <button id="theme-toggle">🌙</button>
+
+          <a href="login.html" class="login-btn">ورود</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <article class="details-card">
+        <div class="details-header">
+          <h2 class="title-red">🚩 صلی الله علیک یا اباعبدالله 🚩</h2>
+          <p>اردوی دانشجویی سفر زیارتی کربلای معلی</p>
+        </div>
+
+        <div class="slider-container event-banner-slider">
+          <div class="mySlides fade" style="display: block">
+            <img src="../assets/images/karbala.jpg" alt="عکس ۱" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="../assets/images/karbala-2.jpg" alt="عکس ۲" />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <div
+          class="minimal-timer"
+          id="event-timer"
+          data-date="Nov 16, 2026 16:00:00"
+        >
+          <div class="timer-part">
+            <span class="count-num" id="days">00</span>
+            <small>روز</small>
+          </div>
+          <span class="colon">:</span>
+          <div class="timer-part">
+            <span class="count-num" id="hours">00</span>
+            <small>ساعت</small>
+          </div>
+          <span class="colon">:</span>
+          <div class="timer-part">
+            <span class="count-num" id="minutes">00</span>
+            <small>دقیقه</small>
+          </div>
+          <span class="colon">:</span>
+          <div class="timer-part">
+            <span class="count-num" id="seconds">00</span>
+            <small>ثانیه</small>
+          </div>
+        </div>
+
+        <p id="timer-message" style="display: none">
+          مهلت ثبت‌نام به پایان رسید!
+        </p>
+
+        <div class="info-box info-red">
+          <p>
+            <strong>📅 تاریخ سفر:</strong> چهارشنبه ۱۲ آذر الی جمعه ۱۴ آذر ۱۴۰۴
+          </p>
+          <p><strong>🌙 مناسبت:</strong> ویژه برنامه وفات حضرت ام‌البنین (س)</p>
+          <p><strong>⏳ مهلت ثبت‌نام:</strong> ۱۹ آبان الی ۲۶ آبان ۱۴۰۴</p>
+          <p><strong>💰 هزینه:</strong> استثنایی و نیم‌بها</p>
+        </div>
+
+        <h3 class="section-title">شرایط و نکات مهم سفر:</h3>
+        <ul class="details-list">
+          <li>داشتن گذرنامه با اعتبار حداقل شش ماه الزامی است.</li>
+          <li>
+            ثبت‌نام قطعی پس از واریز وجه از طریق درگاه پرداخت سایت انجام خواهد
+            شد.
+          </li>
+          <li>ظرفیت این اردو بسیار محدود می‌باشد.</li>
+          <li>
+            برای کسب اطلاعات بیشتر می‌توانید به دفتر نهاد رهبری مراجعه کنید.
+          </li>
+        </ul>
+
+        <div class="action-area">
+          <span class="organizer-name"
+            >هیئت دانشجویی انقلابی منتظران صاحب الزمان (عج)</span
+          >
+          <a href="login.html" class="btn-submit action-btn">ثبت‌نام</a>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>۱۴۰۴ - دانشگاه صنعتی جندی شاپور دزفول</p>
+      </div>
+    </footer>
+    <script src="../JS/script.js"></script>
+  </body>
+</html>

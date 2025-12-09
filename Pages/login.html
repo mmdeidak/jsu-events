@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ورود به سامانه - دانشگاه جندی شاپور</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/forms.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="../index.html" class="logo">رویدادهای جندی شاپور</a>
+        <nav style="display: flex; align-items: center; gap: 5px">
+          <button id="theme-toggle">🌙</button>
+
+          <a href="signup.html" class="login-btn">ثبت‌نام</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="form-container">
+        <div class="form-header">
+          <h2>ورود به حساب</h2>
+          <p>به دنیای یادگیری خوش آمدید!</p>
+        </div>
+
+        <form action="index.html" method="get">
+          <div class="form-group">
+            <label for="username">شماره دانشجویی</label>
+            <input type="text" id="username" name="username" required />
+          </div>
+
+          <div class="form-group">
+            <label for="password">رمز عبور</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+
+          <button type="submit" class="btn-submit">ورود</button>
+
+          <div class="form-footer">
+            <p>
+              حساب کاربری ندارید؟
+              <a href="signup.html" class="form-link">ثبت‌نام کنید</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>۱۴۰۴ - دانشگاه صنعتی جندی شاپور دزفول</p>
+      </div>
+    </footer>
+    <script src="../JS/script.js"></script>
+  </body>
+</html>

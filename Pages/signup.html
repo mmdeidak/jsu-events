@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>عضویت در سامانه - دانشگاه جندی شاپور</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/forms.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="../index.html" class="logo">رویدادهای جندی شاپور</a>
+        <nav style="display: flex; align-items: center; gap: 5px">
+          <button id="theme-toggle">🌙</button>
+
+          <a href="login.html" class="login-btn">ورود</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="form-container">
+        <div class="form-header">
+          <h2>ایجاد حساب کاربری</h2>
+          <p>برای شرکت در رویدادها ابتدا عضو شوید.</p>
+        </div>
+
+        <form action="index.html" method="get">
+          <div class="form-group">
+            <label for="full-name">نام و نام خانوادگی *</label>
+            <input type="text" id="full-name" name="full-name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="student-id">شماره دانشجویی *</label>
+            <input type="text" id="student-id" name="student_id" required />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">شماره موبایل *</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="09xxxxxxxxx"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="password">رمز عبور *</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+
+          <button type="submit" class="btn-submit">عضویت و ورود</button>
+
+          <div class="form-footer">
+            <p>
+              قبلاً ثبت‌نام کرده‌اید؟
+              <a href="login.html" class="form-link">وارد شوید</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>۱۴۰۴ - دانشگاه صنعتی جندی شاپور دزفول</p>
+      </div>
+    </footer>
+    <script src="../JS/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تکمیل ثبت‌نام - دانشگاه جندی شاپور</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/forms.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="../index.html" class="logo">رویدادهای جندی شاپور</a>
+        <nav style="display: flex; align-items: center; gap: 5px">
+          <button id="theme-toggle">🌙</button>
+
+          <a href="login.html" class="login-btn">ورود</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="form-container" style="max-width: 600px">
+        <div class="form-header">
+          <h2>ثبت‌نام در: دوره پایتون مقدماتی</h2>
+          <p>لطفاً نوع شرکت در رویداد را مشخص کنید.</p>
+        </div>
+
+        <form action="index.html" method="get">
+          <div class="ticket-selector">
+            <label class="radio-box">
+              <input
+                type="radio"
+                name="ticket-type"
+                value="in-person"
+                checked
+              />
+              <div>
+                <strong>شرکت حضوری</strong>
+                <p>حضور در کلاس + پذیرایی + گواهی فیزیکی</p>
+              </div>
+              <span class="price">۲۵۰,۰۰۰ تومان</span>
+            </label>
+
+            <label class="radio-box">
+              <input type="radio" name="ticket-type" value="virtual" />
+              <div>
+                <strong>شرکت مجازی (آنلاین)</strong>
+                <p>دسترسی به ویدئوهای ضبط شده + گواهی دیجیتال</p>
+              </div>
+              <span class="price">۱۵۰,۰۰۰ تومان</span>
+            </label>
+          </div>
+
+          <div class="payment-summary">
+            <div class="summary-row">
+              <span>مبلغ بلیط:</span>
+              <span>۲۵۰,۰۰۰ تومان</span>
+            </div>
+            <div class="summary-row discount-text">
+              <span>تخفیف دانشجویی (۱۰٪):</span>
+              <span>۲۵,۰۰۰- تومان</span>
+            </div>
+            <div class="summary-row total-row">
+              <span>مبلغ قابل پرداخت:</span>
+              <span>۲۲۵,۰۰۰ تومان</span>
+            </div>
+          </div>
+
+          <button type="submit" class="btn-submit btn-success">
+            پرداخت آنلاین و نهایی‌سازی
+          </button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>۱۴۰۴ - دانشگاه صنعتی جندی شاپور دزفول</p>
+      </div>
+    </footer>
+    <script src="../JS/script.js"></script>
+  </body>
+</html>

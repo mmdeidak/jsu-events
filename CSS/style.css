@@ -32,7 +32,7 @@ body.dark-theme {
   --border-color: #2a2d33;
 
   --header-bg: #181b20;
-  --footer-bg: #0f1115;
+  --footer-bg: #1f242d;
   --footer-text: #e5e7eb;
 
   --hero-bg: #1a73e8;
@@ -294,5 +294,6 @@ body.dark-theme #theme-toggle {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 }
+
 
 
